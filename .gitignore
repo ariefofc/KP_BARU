@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.backup
+.env.production
+.env.local
+!.env.example
+
+# Build output
+frontend/dist/
+backend/dist/
+
+# Prisma
+backend/prisma/migrations/
+
+# Data files (runtime-generated)
+backend/data/
+
+# Uploads
+backend/public/uploads/recolor/*
+!backend/public/uploads/recolor/.gitkeep
+
+# Python
+python/__pycache__/
+python/*.pyc
+python/venv/
+python/models/*.onnx
+
+# IDE
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
